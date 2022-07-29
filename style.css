@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 300;
+}
+
+div {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 15px 35px rgba(50, 50, 93, 0.1);
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(138, 43, 226);
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h2 {
+  color: rgb(77, 62, 88);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  margin: 20px 20px 40px 20px;
+}
+
+a {
+  color: rgb(233, 223, 223);
+  text-decoration: none;
+  font-family: 'Helvetica';
+  font-weight: 200;
+}
+
+ul{
+  margin-top: 10px;
+}
+
+ul a {
+  color: cornflowerblue;
+  font-size: 30px;
+  text-align: center;
+  padding: auto 8px;
+}
+
+a:hover {
+  color: mediumorchid;
+  font-weight: 300;
+}
+
+#img-profile {
+  width: 120px;
+  border-radius: 50%;
+  padding-left: auto;
+}
+
+#btn-purple {
+  padding: 10px 20px;
+  border: 1px solid rgb(107, 61, 235);
+  background-color: rgb(107, 61, 235);
+  border-radius: 4px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgb(141, 186, 231);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.card {
+  padding: 50px 30px;
+  margin: 20px auto;
+  background-color: white;
+  text-align: center;
+  box-shadow: rgba(238, 4, 238, 0.822);
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  div{
+    width: 400px;
+  }
+
+  .card{
+    width: 300px;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 16px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  #img-profile {
+    width: 90px;
+  }
+
+  a{
+    font-size: 16px;
+  }
+
+  ul a {
+    font-size: 22px;
+  }
+
+  #btn-purple {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  div{
+    width: 250px;
+  }
+
+  .card{
+    width: 150px;
+  }
+
+  h1{
+    font-size: 18px;
+  }
+
+  h2{
+    font-size: 14px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+  #img-profile {
+    width: 80px;
+  }
+
+  a{
+    font-size: 12px;
+  }
+
+  ul a {
+    font-size: 18px;
+  }
+
+  #btn-purple {
+    padding: 6px 12px;
+  }
+}
